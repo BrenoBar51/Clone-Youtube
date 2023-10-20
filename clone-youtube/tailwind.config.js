@@ -9,6 +9,7 @@ export default {
         branco: "#ffffff",
         preto: "#000000",
         cinza: "#666666",
+        cinza_claro: "#ADABAB",
       },
     },
     plugins: [],

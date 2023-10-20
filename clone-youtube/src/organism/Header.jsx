@@ -5,13 +5,17 @@ import SideBar from "../atoms/sidebar";
 
 export default function Header() {
   return (
-    <header>
-      <div className="pt-2">
+    <header className="flex sticky">
+      <nav>
         <SideBar />
-        <Logo />
-        <SearchBar />
-        <ActionBtns />
-      </div>
+      </nav>
+      <nav>
+        <div className="flex pt-2">
+          <Logo />
+          <SearchBar />
+          <ActionBtns />
+        </div>
+      </nav>
     </header>
   );
 }
