@@ -1,15 +1,11 @@
 import ActionBtns from "../atoms/ActionBtns";
 import Logo from "../atoms/Logo";
 import SearchBar from "../atoms/SearchBar";
-import SideBar from "../atoms/sidebar";
 
 export default function Header() {
   return (
-    <header className="flex sticky">
-      <nav>
-        <SideBar />
-      </nav>
-      <nav>
+    <header className="flex h-fit">
+      <nav className="pl-20">
         <div className="flex pt-2">
           <Logo />
           <SearchBar />
